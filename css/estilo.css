@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+}
+#container{
+    width: 100%;
+}
+h3{
+    color: #8FA819;
+}
+
+.box1{
+   width: 29%;
+   display: inline-grid;
+   margin-right: 4%;
+}
+.box2{
+    width: 66%;
+    display: inline-grid;
+    
+}
+.titulo{
+    color: #070096;
+    font-weight: bold;  
+}
+.subli{
+    text-decoration: underline
+}
+.negrito{
+  font-weight: bold;  
+}
+p {
+    margin: 0;
+    margin-bottom:20px;
+}
+    
+    
