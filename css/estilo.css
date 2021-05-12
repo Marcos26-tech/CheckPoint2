@@ -1,8 +1,7 @@
 .container {
     height: 100%;
     width: 100%;
-    margin: 0px;
-
+    margin: 0 auto;
 }
 
 .menu ul li a {
@@ -13,6 +12,7 @@
     padding-bottom: 14px;
     padding: 14px;
     font-size: 11px;
+    text-align: center;
 }
 
 .menu ul li a:hover {
@@ -36,6 +36,9 @@
     width: 460.5px;
     display: inline-block;
 }
+
+
+
 
 h3 {
     color: #8FA819;
@@ -111,7 +114,7 @@ footer {
 body {
     margin: 0 auto;
     width: 70%;
-    text-align: justify;
+    
 }
 
 .maior {
@@ -164,6 +167,7 @@ span {
 p {
     margin: 0;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 /*linha html*/
