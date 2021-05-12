@@ -1,6 +1,8 @@
 .container {
-    margin: 0 23%;
-    width: 850px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+
 }
 
 .menu ul li a {
@@ -64,22 +66,18 @@ span {
 }
 
 .lupa {
-    margin-bottom: -22px;
-    padding-top: 0.5px;
-    width: 73px;
-    height: 56px;
     background-color: #cdd2d770;
+    padding: 1vw 1vh;
 }
 
 .inserir {
-    border-color: #8fa819;
+    border-color: #000000;
+    border-width: 1px;
+    border-right: 1px;
     width: 300px;
     height: 48px;
 }
 
-nav {
-    margin-left: auto;
-}
 
 footer {
     height: 50px;
@@ -168,6 +166,7 @@ p {
     margin-bottom: 20px;
 }
 
+/*linha html*/
 hr {
     width: 100%;
     display: inline;
