@@ -1,6 +1,7 @@
 .container {
-    margin: 0 23%;
-    width: 850px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .menu ul li a {
@@ -11,6 +12,7 @@
     padding-bottom: 14px;
     padding: 14px;
     font-size: 11px;
+    text-align: center;
 }
 
 .menu ul li a:hover {
@@ -35,6 +37,9 @@
     display: inline-block;
 }
 
+
+
+
 h3 {
     color: #8FA819;
     margin-left: 20px;
@@ -46,7 +51,7 @@ h3 {
 
 h4 {
     color: #3F71B6;
-    margin-bottom: -15px;
+    margin-bottom: 15px;
 }
 
 span {
@@ -54,39 +59,53 @@ span {
     font-size: large;
 }
 
-.rodape {
-    padding-top: 35px;
-    height: 50px;
-    text-align: center;
-    background-color: #8FA819;
-    color: aliceblue;
-}
-
 .negrito {
     font-weight: bold;
 }
 
 .formulario {
-    margin-left: -5px;
+    margin-left: 5px;
     display: inline-block;
 }
 
 .lupa {
-    margin-bottom: -22px;
-    padding-top: 0.5px;
-    width: 73px;
-    height: 56px;
     background-color: #cdd2d770;
+    padding: 1vw 1vh;
 }
 
 .inserir {
-    border-color: #8FA819;
-    width: 305px;
+    border-color: #000000;
+    border-width: 1px;
+    border-right: 1px;
+    width: 300px;
     height: 48px;
 }
 
-nav {
-    margin-left: -25px;
+
+footer {
+    height: 50px;
+    width: auto;
+    text-align: center;
+    background-color: #8FA819;
+    color: #fdfdfd;
+}
+
+.fim {
+    display: inline-flex;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.rodape {
+    display: inline-flex;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 
 
@@ -95,7 +114,7 @@ nav {
 body {
     margin: 0 auto;
     width: 70%;
-    text-align: justify;
+    
 }
 
 .maior {
@@ -125,20 +144,6 @@ span {
 
 /* CSS ABAIXO DO MACIEL */
 
-body {
-    margin: 0 auto;
-    width: 70%;
-    text-align: justify;
-}
-
-#container {
-    width: 100%;
-}
-
-h3 {
-    color: #8FA819;
-}
-
 .box1 {
     width: 29%;
     display: inline-grid;
@@ -151,7 +156,7 @@ h3 {
 }
 
 .titulo {
-    color: #070096;
+    color: #3F71B6;
     font-weight: bold;
 }
 
@@ -159,11 +164,15 @@ h3 {
     text-decoration: underline
 }
 
-.negrito {
-    font-weight: bold;
-}
-
 p {
     margin: 0;
     margin-bottom: 20px;
+    text-align: justify;
+}
+
+/*linha html*/
+hr {
+    width: 100%;
+    display: inline;
+    border: 1px solid #8FA819;
 }
