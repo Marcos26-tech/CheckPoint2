@@ -1,44 +1,77 @@
 .container {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
+    margin: 0%;
+    padding: 0%;
+    
+}
+label {display: block;}
+input, button {padding: 10px;}
+input {width: 50%;}
+
+.buscar{
+    width: 100%; /* define a largura do campo */ 
+    position: relative;
+    padding: 1% 0%; 
+    width: 100%;
+    height: 10%;
+}
+  label {display:block;}
+  input {width: 100%;} /* define a largura do campo igual a largura do container */
+  input,  button {padding: 10px;}
+  button {
+    position: relative;   
+    top: 0; 
+    right: 0;
+    /* posiciona o botão em relação ao container, mas
+    como o campo está exatamente contido no container
+    o posicionamento se dá também em relação ao campo */
 }
 
-.menu ul li a {
-    color: #fff;
+button {
+  position: absolute;   
+  top: 0; /* alterado aqui */
+  left: 0;
+  padding: 7% 5%; 
+  max-width: 1100%;
+  max-height: 1200%;
+  color:#8FA819;
+}
+input {padding-left: 60px;} /* alterado aqui */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+nav{
+    background-color: #8FA819;
+}
+
+li{
+    float: left;
+    padding-left: 15px;
+    
+}
+
+li a {
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: white;
     text-decoration: none;
-    border-bottom: 5px solid #FFCD04;
-    padding-bottom: 14px;
-    padding: 14px;
-    font-size: 11px;
     text-align: center;
-}
-
-.menu ul li a:hover {
-    background-color: #FFCD04;
-    text-decoration: none;
+    padding: 14px 16px;
     border-bottom: 5px solid #FFCD04;
-    padding-bottom: 14px;
-    padding-top: 24.5px;
-    font-size: 11px;
 }
 
-.menu ul li {
-    padding: 1px;
-    display: inline;
-    background-color: #8FA819;
+li a:hover {
+    background-color: #FFCD04;
 }
-
-.menu {
-    background-color: #8FA819;
-    padding-bottom: 1px;
-    width: 460.5px;
-    display: inline-block;
+button a:hover {
+    border-bottom: 5px solid #FFCD04;
 }
-
-
-
 
 h3 {
     color: #8FA819;
@@ -64,23 +97,18 @@ span {
 }
 
 .formulario {
-    margin-left: 5px;
-    display: inline-block;
+    display: inline-grid;
 }
 
-.lupa {
-    background-color: #cdd2d770;
-    padding: 1vw 1vh;
-}
 
 .inserir {
-    border-color: #000000;
+    border-color: #8FA819;
     border-width: 1px;
-    border-right: 1px;
-    width: 300px;
+    width: 225px;
     height: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 footer {
     height: 50px;
@@ -96,7 +124,6 @@ footer {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
 }
 
 .rodape {
@@ -105,7 +132,6 @@ footer {
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
 }
 
 
@@ -113,8 +139,7 @@ footer {
 
 body {
     margin: 0 auto;
-    width: 70%;
-    
+    width: 50%;
 }
 
 .maior {
@@ -145,13 +170,13 @@ span {
 /* CSS ABAIXO DO MACIEL */
 
 .box1 {
-    width: 29%;
+    width: 30%;
     display: inline-grid;
-    margin-right: 4%;
+    margin-right: 0%;
 }
 
 .box2 {
-    width: 66%;
+    width: 60%;
     display: inline-grid;
 }
 
@@ -161,7 +186,9 @@ span {
 }
 
 .subli {
-    text-decoration: underline
+    text-decoration: underline;
+    background-color:#ffffff;
+    display:inline-block
 }
 
 p {
@@ -170,7 +197,9 @@ p {
     text-align: justify;
 }
 
+
 /*linha html*/
+
 hr {
     width: 100%;
     display: inline;
