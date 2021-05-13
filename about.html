@@ -3,15 +3,16 @@
 
 <head>
     <link rel="stylesheet" href="./css/estilo.css">
-    <meta charset=" UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <script src="https://kit.fontawesome.com/44e453d5ff.js" crossorigin="anonymous"></script>
     <title>ABOUT</title>
 </head>
 
 <body>
     <div id="container">
-        <div class="menu ">
-            <img src="img/your_image.jpg" alt="girassol ">
+        <div class="menu">
+            <img class="container" src="img/your_image.jpg" alt="girassol ">
             <nav>
                 <ul>
                     <li><a href="./index.html">HOME</a></li>
@@ -19,16 +20,17 @@
                     <li><a href="./services.html">SERVICES</a></li>
                     <li> <a href="./solutions.html">SOLUTIONS</a></li>
                     <li><a href="./contatc.html">CONTACT US</a></li>
-
+                    <li>
+                        <form action="./index.html" method="get">
+                            <label for="busca"></label>
+                            <div class="buscar">
+                                <input type="search" id="busca" name="q">
+                                <button class="fa fa-search" type="submit"></button>
+                            </div>
+                        </form>
+                    </li>
                 </ul>
             </nav>
-        </div>
-
-        <div class="formulario ">
-            <form action="#">
-                <input class="lupa" type="image" value src="./img/lupa.png">
-                <input class="inserir " type="text " placeholder="Buscar ">
-            </form>
         </div>
 
         <div class="box1">
@@ -37,19 +39,19 @@
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula ipsum et pretium venenatis.
                 Nuncid Nulla posuere mollis.
-                lorem lacus. Suspendisse rutrum sit amet est vel egestas. Curabitur congue ex id sem bibendum. <a
-                    href="https://br.lipsum.com/feed/html">In erat enim, tincidunt eget</a>
+                lorem lacus. Suspendisse rutrum sit amet est vel egestas. Curabitur congue ex id sem bibendum.
+                <a href="https://br.lipsum.com/feed/html">In erat enim, tincidunt eget</a>
             </p>
 
             <hr>
 
-            <div id="subli">
+            <div class="subli01">
                 <h3 id="titulo2">OUR MISSION</h3>
                 <ul>
-                    <b><i>
-                            <li class="subli">Sed nec justo sit amet metus</li>
-                            <li>Cras semper adipiscing</li>
-                    </b></i>
+
+                    <li class="subli">Sed nec justo sit amet metus</li>
+                    <li class="subli01">Cras semper adipiscing</li>
+
                 </ul>
             </div>
         </div>
@@ -60,7 +62,7 @@
                 <img class="img-flag" src="./img/team.jpg" alt="folha team">
             </div>
 
-            <div id="paragrafos">
+            <div class="paragrafos">
                 <id class="titulo">Lorem ipsum dolor sit amet</id>
                 <p> Aenean in massa tristique,Aliquam a tellus sed diam pellentesque tincidunt. Praesent eu nisi non ex
                     viverra commodo at vel nislnec metus commodo, dictum risus ac, sollicitudin leo. Nulla posuere
@@ -69,7 +71,7 @@
                         auctor...</a>
                 </p>
             </div>
-            <div id="paragrafos">
+            <div class="paragrafos">
                 <id class="titulo">Lorem ipsum dolor sit amet</id>
                 <p> Aenean in massa tristique,Aliquam a tellus sed diam pellentesque tincidunt. Praesent eu nisi non ex
                     viverra commodo at vel nislnec metus commodo, dictum risus ac, sollicitudin leo. Nulla posuere
@@ -78,7 +80,7 @@
                         auctor...</a>
                 </p>
             </div>
-            <div id="paragrafos">
+            <div class="paragrafos">
                 <p> Nunc nec enim non mi egestas vehicula vitae at risus. Lorem ipsum dolor sit amet, consectetur
                     adipiscing
                     elit. Pellentesque aliquam ultrices tempus. Mauris molestie urna in auctor bibendum. Praesent quis
@@ -94,11 +96,11 @@
                     sed diam pellentesque tincidunt. Praesent eu nisi non ex viverra commodo at vel nisl.
                 </p>
             </div>
-            <div id="paragrafos">
+            <div class="paragrafos">
                 <p> Nunc nec enim non mi egestas vehicula vitae at risus. Lorem ipsum dolor sit amet, consectetur
                     adipiscing
-                    elit. Pellentesque aliquam ultrices tempus. Mauris molestie urna in <id class="negrito">auctor
-                        bibendum. Praesent quis risus,</id>
+                    elit. Pellentesque aliquam ultrices tempus. Mauris molestie urna in <span class="negrito">auctor
+                        bibendum. Praesent quis risus,</span>
                     diam aliquam dictum. Nulla sed arcu porttitor, efficitur augue id, volutpat velit.Aliquam a tellus
                     sed
                     diam
@@ -110,11 +112,11 @@
                 </p>
             </div>
 
-            <div id="paragrafos">
-                <id class="titulo">Lorem ipsum dolor sit amet</id>
+            <div class="paragrafos">
+                <span class="titulo">Lorem ipsum dolor sit amet</span>
                 <p> Aenean in massa tristique,Aliquam a tellus sed diam pellentesque tincidunt. Praesent eu nisi non ex
                     viverra commodo at vel nisl. Donec
-                    nec metus commodo, dictum risus ac, <id class="subli">sollicitudin leo Nulla posuere </id>
+                    nec metus commodo, dictum risus ac, <span class="subli">sollicitudin leo Nulla posuere </span>
                     mollis ante
                     eget
                     tincidunt
@@ -128,9 +130,9 @@
                     Aliquam a tellus sed diam pellentesque tincidunt.
                 </p>
             </div>
-            <div id="paragrafos">
+            <div class="paragrafos">
                 <p>
-                    <id class="negrito">Aliquam a tellus sed diam pellentesque tincidunt.</id>Praesent eu nisi non
+                    <span class="negrito">Aliquam a tellus sed diam pellentesque tincidunt.</span>Praesent eu nisi non
                     ex
                     viverra commodo at vel nisl. Donec
                     nec metus commodo, dictum risus ac, sollicitudin leo. Nulla posuere mollis ante eget tincidunt. diam
@@ -147,7 +149,7 @@
                 </p>
             </div>
         </div>
-    </div>   
+    </div>
     <footer id="rodape">
         <p class="fim">Copyright &copy; FIAP 1TSDJ</p>
     </footer>

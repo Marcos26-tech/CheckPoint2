@@ -4,11 +4,38 @@
     margin: 0 auto;
 }
 
-.banner {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-}
+.buscar {
+    width: 141%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+  label {display:block;}
+  input {width: 100%;} /* define a largura do campo igual a largura do container */
+  input,  button {padding: 16px;}
+  button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+    /* posiciona o botão em relação ao container, mas
+    como o campo está exatamente contido no container
+    o posicionamento se dá também em relação ao campo */
+  }
+  button {
+    position: absolute;   
+    top: 0; /* alterado aqui */
+    left: 0;
+  }
+  input {padding-left: 20px;} /* alterado aqui */
+
+  button { 
+    height:100%;
+    width: 15%;
+    color:#8FA819;
+    background-color: #f1f5f8;
+    
+    cursor: pointer;
+    border-bottom:none;
+    border:#8FA819
+  }
 
 ul {
     list-style-type: none;
@@ -17,7 +44,7 @@ ul {
     overflow: hidden;
 }
 
-li {
+li{
     float: left;
     padding-left: 15px;
     background-color: #8FA819;
@@ -138,13 +165,13 @@ span {
 /* CSS ABAIXO DO MACIEL */
 
 .box1 {
-    width: 29%;
+    width: 39%;
     display: inline-grid;
-    margin-right: 4%;
+    margin-right: 0%;
 }
 
 .box2 {
-    width: 66%;
+    width: 60%;
     display: inline-grid;
 }
 
@@ -154,7 +181,9 @@ span {
 }
 
 .subli {
-    text-decoration: underline
+    text-decoration: underline;
+    background-color: none;
+    
 }
 
 p {
