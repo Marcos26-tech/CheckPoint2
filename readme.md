@@ -1,4 +1,4 @@
-Disciplina Responsive Web Development
+Disciplina: Responsive Web Development
 
 Telas do Sistema (navegável):
 
